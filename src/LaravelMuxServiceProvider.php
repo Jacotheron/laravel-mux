@@ -22,7 +22,7 @@ class LaravelMuxServiceProvider extends IlluminateServiceProvider
     public function boot():void
     {
         $this->publishes([
-            __DIR__.'/../config/laravel-mux.php' => base_path('config/laravel-mux'),
+            __DIR__.'/../config/laravel-mux.php' => base_path('config/laravel-mux.php'),
         ], 'mux-config');
     }
 }

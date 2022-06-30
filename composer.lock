@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3cafa900526a5f6147023de495e8cbc9",
+    "content-hash": "da320d3573becfaa7a43dbd92ae544d6",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -641,7 +641,7 @@
         },
         {
             "name": "muxinc/mux-php",
-            "version": "dev-master",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/muxinc/mux-php.git",
@@ -664,7 +664,6 @@
                 "friendsofphp/php-cs-fixer": "^2.12",
                 "phpunit/phpunit": "^8.0 || ^9.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1599,7 +1598,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2.5 || ^8.0",
+        "php": "^7.2.5 || ^8.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*"
