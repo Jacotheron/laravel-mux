@@ -1,0 +1,47 @@
+{
+  "name": "jacotheron/laravel-mux",
+  "version": "1.0",
+  "description": "Simple API Wrapper for Mux videos",
+  "keywords": [
+    "php",
+    "sdk",
+    "rest",
+    "api",
+    "video",
+    "laravel",
+    "streaming"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.2.5 || ^8.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "guzzlehttp/guzzle": "^7.0.0",
+    "muxinc/mux-php": ">=3.52",
+    "illuminate/support": "^6|^7|^8|^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jacotheron\\LaravelMux\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Jacotheron\\LaravelMux\\LaravelMuxServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jacotheron",
+      "email": "jac@xilix.technology"
+    }
+  ],
+  "minimum-stability": "dev"
+}
