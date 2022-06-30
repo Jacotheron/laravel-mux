@@ -13,12 +13,12 @@
   ],
   "type": "library",
   "require": {
-    "php": ">=7.2.5 || ^8.0",
+    "php": "^7.2.5 || ^8.0",
     "ext-curl": "*",
     "ext-json": "*",
     "ext-mbstring": "*",
     "guzzlehttp/guzzle": "^7.0.0",
-    "muxinc/mux-php": ">=3.52",
+    "muxinc/mux-php": "^3.5",
     "illuminate/support": "^6|^7|^8|^9"
   },
   "autoload": {
